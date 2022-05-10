@@ -8,4 +8,9 @@ spec:
       image: registry.access.redhat.com/ubi8/ubi
       command:
         - /bin/bash
-      args: ['-c', 'echo Hello World']
+      args: ['-c', 'echo Hello World!']
+    - name: say-hello-again
+      image: registry.access.redhat.com/ubi8/ubi
+      command:
+        - /bin/bash
+      args: ['-c', 'echo Hello World again!']
